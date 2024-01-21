@@ -1,0 +1,65 @@
+.Section1-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.Section1-content{
+    flex: 1;
+}
+.Section1-content h2{
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+}
+.Section1-content p{
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+.Section1-img{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.Section1-img > div{
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+}
+.tech-icon{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.65rem;
+    border:1.5px solid #6852ba
+}
+
+.tech-icon img{
+    width: 3rem;
+    height: 0 auto;
+    transition: all 0.3s ease;
+}
+.section1-img > div >img:hover,
+.tech-icon img:hover{
+    transform: translateY(-00.65rem);
+}
+.image img{
+    width:25rem;
+    height:25rem;
+    transition: all 0.3s ease-in;
+}
+.image img:hover{
+    transform: translateY(-00.65rem);
+}
+.image{
+    border: solid 1px;
+    border-radius: 10px 10px 10px 10px;
+}
