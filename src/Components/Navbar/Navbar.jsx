@@ -21,13 +21,13 @@ const Navbar =() =>{
                         <a className="menu-item" href="/">HOME</a>
                     </li>
                     <li>
-                        <a className="menu-item" href="/about">ABOUT ME</a>
+                        <a className="menu-item" href="https://guileless-marigold-6c0ebc.netlify.app//about">ABOUT ME</a>
                     </li>
                     <li>
-                        <a className="menu-item" href="/project">PROJECT X </a>
+                        <a className="menu-item" href="https://guileless-marigold-6c0ebc.netlify.app//project">PROJECT X </a>
                     </li>
                     <li>
-                        <a className="menu-item" href="/service">SERVICE</a>
+                        <a className="menu-item" href="https://guileless-marigold-6c0ebc.netlify.app//service">SERVICE</a>
                     </li>
                     <li>
                         <a className="menu-item">CONTACT ME</a>

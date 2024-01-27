@@ -13,10 +13,10 @@ const MobileNav = ({isOpen, toggleMenu})=>{
 
                 <ul>
                    <li>
-                        <a className="menu-item">Home</a>
+                        <a className="menu-item" href="https://guileless-marigold-6c0ebc.netlify.app/">Home</a>
                     </li>
                     <li>
-                        <a className="menu-item">Skills</a>
+                        <a className="menu-item" href="https://guileless-marigold-6c0ebc.netlify.app/about">Skills</a>
                     </li>
                     <li>
                         <a className="menu-item">work experience</a>
