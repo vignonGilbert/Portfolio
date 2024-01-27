@@ -36,4 +36,7 @@
     .mobile-menu{
         display: block;
     }
+    .logo{
+        width: 3rem;
+    }
 }

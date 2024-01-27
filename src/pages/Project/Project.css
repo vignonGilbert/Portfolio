@@ -1,0 +1,9 @@
+.container-project{
+    margin: auto;
+  }
+  @media (max-width:1300px) {
+      .container{
+          padding: 0 1.5rem;
+      }
+      
+  }

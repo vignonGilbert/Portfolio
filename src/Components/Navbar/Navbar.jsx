@@ -18,22 +18,25 @@ const Navbar =() =>{
            
                 <ul>
                     <li>
-                        <a className="menu-item">Home</a>
+                        <a className="menu-item" href="/">HOME</a>
                     </li>
                     <li>
-                        <a className="menu-item">Skills</a>
+                        <a className="menu-item" href="/about">ABOUT ME</a>
                     </li>
                     <li>
-                        <a className="menu-item">work experience</a>
+                        <a className="menu-item" href="/project">PROJECT X </a>
                     </li>
                     <li>
-                        <a className="menu-item">Contact Me</a>
+                        <a className="menu-item" href="/service">SERVICE</a>
+                    </li>
+                    <li>
+                        <a className="menu-item">CONTACT ME</a>
                     </li>
 
                     <button className="contact-btn" onClick={()=>{}}> Hire Me </button>
                 </ul>
-                <button class="menu-btn" onClick={toggleMenu}>
-            <span class={"material-symbols-outlined"}  style={{ fontSize: "1.8rem" }}> {openMenu ? "close":"menu"} </span>
+                <button className="menu-btn" onClick={toggleMenu}>
+            <span className={"material-symbols-outlined"}  style={{ fontSize: "1.8rem" }}> {openMenu ? "close":"menu"} </span>
             
         </button>
            </div>

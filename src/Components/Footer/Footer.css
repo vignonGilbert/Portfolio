@@ -1,0 +1,40 @@
+.Footer-container{
+    background: #1f2b3e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.footer-reseau{
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+}
+.tech-icon2{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+.tech-icon2 img{
+    width: 2rem;
+    height: 2rem;
+}
+.tech-icon2 :hover{
+    height: 3rem;
+    width: 3rem;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+}
+.footer-right{
+    margin-bottom: 0.8rem;
+}
+.footer-right p{
+    font-size: 1rem;
+    font-weight: 600;
+}

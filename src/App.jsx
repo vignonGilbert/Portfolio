@@ -1,6 +1,12 @@
-import './App.css'
-import Navbar from './Components/Navbar/Navbar'
-import Section1 from './Components/Section1/Section1'
+import './App.css';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import Home from './pages/Home/Home'
+import About from './pages/About/About'
+import Project from './pages/Project/Project';
+import Service from './pages/Service/Service';
 
 
 function App() {
@@ -8,12 +14,14 @@ function App() {
   return (
     <>
       
-      <div className="Navbar">
-      <Navbar/>
-   <div className='container'><Section1/></div>
-      
-       
-      </div>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/"element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/project" element={<Project/>}/>
+        <Route path='/service'element={<Service/>}/>
+      </Routes>
+      </BrowserRouter>
     
     </>
   )

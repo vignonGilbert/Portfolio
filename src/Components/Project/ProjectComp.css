@@ -1,0 +1,98 @@
+.portfolio {
+    width: 100%;
+    max-width: 1200px;
+    margin: 3rem auto;
+    background: #0F1C2E;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 1rem;
+    padding: 0 1rem;
+   }
+   .tete{
+       
+    text-align: center;
+    
+}
+.tete h1{
+    font-size: 50px;
+    margin: 1rem 0;
+}
+.tete h1 span{
+    color: #cee8ff;
+    font-size: calc(30px + 2.3vw);
+    font-family: "Dancing Script",cursive;
+}
+.tete p{
+    line-height: 28px;
+    font-size: 20px;
+    text-wrap: 10px;
+}
+  
+  .portfolio-card {
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 7px 4px rgba(8,66,73,0.6);
+  }
+  
+  .portfolio-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in,
+    filter 0.2s ease-in;
+    
+  }
+  
+  .portfolio-card img:hover {
+    transform: scale(1.2);
+    filter: none;
+  }
+  
+  .portfolio-card-infos {
+  
+    color: rgba(8,66,73,0.7);
+    font-size: calc(18px + 0.2vw);
+    position: absolute;
+    width: 100%;
+    height: 105px;
+    line-height: 105px;
+    text-align: center;
+    opacity: 0.5;
+    background: rgb(255,255,255,0.8);
+    bottom: -105px;
+    left: 0;
+    pointer-events: none;
+    cursor: default;
+    right: 0;
+    transition: bottom 0.2s ease-in-out,
+    opacity 0.2s ease-in-out;
+  
+  }
+  
+  .portfolio-card h3 {
+    font-family: 'Secular One', cursive;
+  }
+  
+  .portfolio-card:hover .portfolio-card-infos {
+    bottom: 0;
+    opacity: 1;
+  }
+  .me{
+    text-align: center;
+ }
+ .me h2{
+     font-size: 3.5rem;
+     font-weight: 500;
+ }
+ .me p{
+    margin-top: 0.8rem;
+ }
+ .header-image{
+    position: relative;
+    width:100%;
+    padding: 5rem;
+    background: no-repeat center / cover url('./assets/image/image.jpg');
+}
+
+  @media (max-width:768px){
+
+  }

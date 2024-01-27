@@ -2,6 +2,7 @@ import React from "react";
 import './Section1.css'
 const Section1 =()=>{
     return(
+        <>
         <section className="Section1-container">
             <div className="Section1-content">
                 
@@ -9,6 +10,12 @@ const Section1 =()=>{
                 <p>Passionate Frontend Developer | Transforming  Ideas into 
                     Seamless and Visually Stunning web Solutions
                 </p>
+                <div className="btn">
+                <a href="" className="contact-btn">Hire Me</a>
+                <a href="" className="contact-btn">Contact Me</a>
+
+                </div>
+                
 
             </div>
             <div className="Section1-img">
@@ -37,6 +44,7 @@ const Section1 =()=>{
 
             </div>
         </section>
+        </>
     );
 }
 

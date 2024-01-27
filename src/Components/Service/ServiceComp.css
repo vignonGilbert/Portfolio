@@ -1,0 +1,70 @@
+.me{
+    text-align: center;
+ }
+ .me h2{
+     font-size: 3.5rem;
+     font-weight: 500;
+ }
+ .me p{
+    margin-top: 0.8rem;
+ }
+ .header-image{
+    position: relative;
+    width:100%;
+    padding: 5rem;
+    background: no-repeat center / cover url('./assets/image/image.jpg');
+}
+
+
+.tete{
+       
+    text-align: center;
+    
+}
+.tete h1{
+    font-size: 50px;
+    margin: 1rem 0;
+}
+.tete h1 span{
+    color: #cee8ff;
+    font-size: calc(30px + 2.3vw);
+    font-family: "Dancing Script",cursive;
+}
+.tete p{
+    line-height: 28px;
+    font-size: 20px;
+    text-wrap: 10px;
+}
+.contentcarte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+.carte{
+    background: #1f2b3e;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e0e0e0 ;
+    width: 400px;
+    height: 300px;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 14px;
+
+}
+.carte img{
+    width: 80px;
+    border: 1px solid;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+.carte p{
+    text-align: center;
+    margin: 2rem 2rem 2rem 2rem;
+}
+.carte:hover{
+    background: #0F1C2E;
+}

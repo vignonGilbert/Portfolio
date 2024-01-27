@@ -39,7 +39,7 @@
     justify-content: center;
     text-align: center;
     border-radius: 0.65rem;
-    border:1.5px solid #6852ba
+    border:1.5px solid #0D6E6E
 }
 
 .tech-icon img{
@@ -62,4 +62,106 @@
 .image{
     border: solid 1px;
     border-radius: 10px 10px 10px 10px;
+}
+.btn{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.btn a{
+    text-decoration-line: none;
+}
+
+@media (max-width: 1025px){
+    .Section1-content h2{
+        font-size: 3rem;
+        line-height: 4rem;
+
+    } 
+    .Section1-content p{
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+
+    }
+    .image img{
+        width: 20rem;
+    }
+    .tech-icon{
+        width: 4rem;
+        height: 4rem;
+    }
+    .tech-icon img{
+        width: 2.5rem;
+    }
+}
+
+@media (max-width:768px){
+
+    .Section1-container{
+        flex-direction: column;
+    }
+    .Section1-content h2{
+        width: auto;
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .Section1-content p{
+        width: auto;
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+        text-align: center;
+    }
+    .image img{
+        width:  1.5rem 0 1.5rem 0;
+        height: auto;
+        
+    }
+    .image{
+        margin-right: 2rem;
+    }
+    
+    .Section1-container::after{
+        top: 0rem;
+        left: 0rem;
+    }
+    .Section1-container::before{
+        bottom: 2rem;
+        right: 0rem;
+    }
+    .btn{
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width:600px){
+
+    
+    .Section1-container h2{
+        font-size: 2rem;
+        line-height: 2rem;
+
+    }
+    .Section1-container p{
+        font-size: 0.8rem;
+    }
+   
+    .image img{
+        width:12rem;
+        height: auto;
+    }
+    .image{
+        margin-top: -3rem;
+    }
+    .tech-icon{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .tech-icon img{
+        width:1.5rem;
+    }
+   
 }
