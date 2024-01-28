@@ -1,3 +1,5 @@
+/*AboutCop css AGBEKPONOU 301243260*/
+
 .mobile-menu{
     width: 100vw;
     height: 100vh;
@@ -15,7 +17,7 @@
 .mobile-menu-container{
     width: 60vw ;
     height: 100vh;
-    background-color: #342864;
+    background-color: #1f2b3e;
     padding: 2rem;
 }
 .mobile-menu.active{

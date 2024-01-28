@@ -1,5 +1,7 @@
 import React from "react";
 import "./MobileNav.css";
+import { Link } from 'react-router-dom';
+
 
 const MobileNav = ({isOpen, toggleMenu})=>{
     return(
@@ -12,17 +14,20 @@ const MobileNav = ({isOpen, toggleMenu})=>{
                 <img className="logo" src="./assets/image/e-mail.png" alt=""/>
 
                 <ul>
-                   <li>
-                        <a className="menu-item" href="https://guileless-marigold-6c0ebc.netlify.app/">Home</a>
+                <li>
+                    <Link to="/" className="menu-item">Home</Link>  
                     </li>
                     <li>
-                        <a className="menu-item" href="https://guileless-marigold-6c0ebc.netlify.app/about">Skills</a>
+                    <Link to="/about" className="menu-item"> About</Link>  
                     </li>
                     <li>
-                        <a className="menu-item">work experience</a>
+                     <Link to="/project" className="menu-item">PROJECT X </Link>
                     </li>
                     <li>
-                        <a className="menu-item">Contact Me</a>
+                    <Link to="/service" className="menu-item">SERVICE</Link>
+                    </li>
+                    <li>
+                    <Link to="/contact" className="menu-item">CONTACT ME</Link>
                     </li>
 
                     <button className="contact-btn" onClick={()=>{}}> Hire Me </button>

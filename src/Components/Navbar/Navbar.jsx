@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import './Navbar.css';
 import MobileNav from "./MobileNav/MobileNav";
+import { Link } from 'react-router-dom';
+
+
 
 const Navbar =() =>{
     const [openMenu, setOpenMenu]=useState(false);
@@ -18,22 +21,22 @@ const Navbar =() =>{
            
                 <ul>
                     <li>
-                        <a className="menu-item" href="/">HOME</a>
+                    <Link to="/" className="menu-item">Home</Link>  
                     </li>
                     <li>
-                        <a className="menu-item" href="https://guileless-marigold-6c0ebc.netlify.app//about">ABOUT ME</a>
+                    <Link to="/about" className="menu-item"> About</Link>  
                     </li>
                     <li>
-                        <a className="menu-item" href="https://guileless-marigold-6c0ebc.netlify.app//project">PROJECT X </a>
+                     <Link to="/project" className="menu-item">PROJECT X </Link>
                     </li>
                     <li>
-                        <a className="menu-item" href="https://guileless-marigold-6c0ebc.netlify.app//service">SERVICE</a>
+                    <Link to="/service" className="menu-item">SERVICE</Link>
                     </li>
                     <li>
-                        <a className="menu-item">CONTACT ME</a>
+                    <Link to="/contact" className="menu-item">CONTACT ME</Link>
                     </li>
 
-                    <button className="contact-btn" onClick={()=>{}}> Hire Me </button>
+                    <a className="contact-btn" href="doc.pdf" download="icon.pdf"> Hire Me </a>
                 </ul>
                 <button className="menu-btn" onClick={toggleMenu}>
             <span className={"material-symbols-outlined"}  style={{ fontSize: "1.8rem" }}> {openMenu ? "close":"menu"} </span>

@@ -16,35 +16,35 @@ const ServiceComp =()=>{
 <section class="service">
         <div className="tete">
           <h1> My <span>service</span></h1>
-          <p> Lorem ipsum dolor, sit amet consectetur  adipisicing elit. Commodi, nisi. 
-            sit amet consectetur adipisicing elit. Commodi, nisi.</p>
+          <p>  I specialize in providing Web,Mobile Developpement. 
+            With a passion , 
+            I offer the following services to help your goals</p>
          
         </div>
         <div className="contentcarte">
           <div className="carte">
             <img src="./assets/image/icone-de-codage.png" alt=""/>
             <h2> Web Developpement</h2>
-            <p> Lorem ipsum dolor, sit amet 
-              consectetur adipisicing elit. 
-              Nulla repellat expedita nostrum veritatis vero modi
+            <p> Web development involves the design, creation,
+               and maintenance of websites and web applications.
+               and backend development, handling server-sids
                
             </p>
           </div>
           <div className="carte">
             <img src="./assets/image/icone-de-codage.png" alt=""/>
-            <h2> Web Developpement</h2>
-            <p> Lorem ipsum dolor, sit amet 
-              consectetur adipisicing elit. 
-              Nulla repellat expedita nostrum veritatis vero modi
+            <h2> Mobile Developpement</h2>
+            <p> Mobile development involves designing and
+               creating applications for mobile devices such as smartphones and tablets. 
                
             </p>
           </div>
           <div class="carte">
             <img src="./assets/image/icone-de-codage.png" alt=""/>
-            <h2> Web Developpement</h2>
-            <p> Lorem ipsum dolor, sit amet 
-              consectetur adipisicing elit. 
-              Nulla repellat expedita nostrum veritatis vero modi
+            <h2> UI & UX</h2>
+            <p> LUI (User Interface) and UX (User Experience) 
+              are crucial aspects of designing digital products,
+               emphasizing the interaction and overall satisfaction of users.
               
             </p>
           </div>

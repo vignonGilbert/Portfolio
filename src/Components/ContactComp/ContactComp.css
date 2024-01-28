@@ -1,0 +1,75 @@
+.header-image{
+    position: relative;
+    width:100%;
+    padding: 5rem;
+    background: no-repeat center / cover url('./assets/image/image.jpg');
+}
+.contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.contact-email{
+    width: 40%;
+    height: auto;
+     margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+    
+}
+.email-card img {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width: 70px;
+    height: 80px;
+}
+.email-card p{
+    margin-bottom: 1.5rem;
+}
+.email-card{
+    
+    width: 420px;
+    height: 130px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     margin: 2rem;
+    border-radius: 2rem;
+}
+.email-card:hover{
+    background: #3D5A80;
+}
+
+.forms{
+    margin: 4rem;
+    
+    width: 40%;
+    height: auto;
+    
+   
+}
+.forms form{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1.5rem;
+}
+.name-container{
+    display: flex;
+    align-items: center;
+    grid-gap: 1.5rem;
+}
+form input,form textarea{
+    flex: 1;
+    width: 100%;
+    font-size: 0.9rem;
+    color: #fff;
+    background: #0F1C2E;
+    border-radius: 0.6rem;
+    border: 1.5px solid #fff;
+    padding: 1.8rem;
+}

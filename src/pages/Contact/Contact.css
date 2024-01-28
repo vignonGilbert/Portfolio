@@ -1,0 +1,10 @@
+/*Contact css AGBEKPONOU 301243260*/
+.container-contact{
+    margin: auto;
+  }
+  @media (max-width:1300px) {
+      .container{
+          padding: 0 1.5rem;
+      }
+      
+  }

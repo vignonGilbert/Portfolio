@@ -8,7 +8,7 @@ const ProjectComp =()=>{
 
                 <div className="me"> 
                     <h2> PROJECT</h2>
-                    <p>Loreti enim, consequatur doloremque distinctio!</p>
+                    <p>My futur project and new </p>
                     
                 </div>
 

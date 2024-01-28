@@ -1,3 +1,6 @@
+
+/*AboutCop css AGBEKPONOU 301243260*/
+
 .image1 img{
     width:30rem;
     height:auto
@@ -41,6 +44,7 @@
     justify-content: center;
 }
 .about-content ul{
+    
     font-size: 1rem;
     list-style: none;
     display: inline;
@@ -48,6 +52,7 @@
 }
 .about-content ul li{
     margin-bottom: 1.9rem;
+    
 }
 .header-image{
     position: relative;

@@ -1,6 +1,8 @@
 import React from "react";
 import './Section1.css'
+import { Link } from 'react-router-dom';
 const Section1 =()=>{
+   
     return(
         <>
         <section className="Section1-container">
@@ -11,8 +13,8 @@ const Section1 =()=>{
                     Seamless and Visually Stunning web Solutions
                 </p>
                 <div className="btn">
-                <a href="" className="contact-btn">Hire Me</a>
-                <a href="" className="contact-btn">Contact Me</a>
+                <a href="doc.pdf" download="icon.pdf" className="contact-btn">Hire Me</a>
+                <Link to="/contact" className="contact-btn">Contact Me </Link>
 
                 </div>
                 

@@ -14,7 +14,7 @@ const AboutCop =()=>{
 
             <div className="me"> 
                 <h2> About me</h2>
-                <p>Loreti enim, consequatur doloremque distinctio!</p>
+                <p>Engeenier software Developper</p>
                 
            </div>
           
@@ -25,24 +25,22 @@ const AboutCop =()=>{
             <div className="about-content">
                 
                         <h2>Hello, I am Vignon Gilbert</h2>
-                        <p>finibus ut congue sed, f
-                            aucibus ut dui. Sed congue nisl dolor,
-                            id dapibus leo elementum posuere. Ut aliquam metus
-                            quis laoreet elementum. In hac habitasse platea dictumst.
-                            In hac habitasse platea dictumst. Aliqu
-                            am porta faucibus arcu, et consequat velit 
-                            vestibulum in. Donec quis tellus ut urna
+                        <p>I am a software developer designs, builds, and maintains software applications, encompassing both frontend and backend development. 
+                            I write clean code, collaborate with cross-functional teams, and ensure applications meet specified requirements.
+                             I like work across the entire software development lifecycle, from initial design to deployment 
+                            and ongoing maintenance.
+                             Staying updated on industry trends is crucial for enhancing skills and contributing to process improvement.
                         </p>
                         <ul>
-                            <li>Name : Mack Smith</li>
-                            <li>Age : 30</li>
-                            <li>Address : Shreveport, LA 81101</li>
-                            <li>Phone Number : +00 153 275 4455</li>
-                            <li>Email : Example@gmail.com</li>
+                            <li>Name : Komlan .V.G.AGBEKPONOU</li>
+                            <li>Age : 25 </li>
+                            <li>Address : Scarborough Toronto</li>
+                            <li>Phone Number :+1 437 799 8106</li>
+                            <li>Email : agbekponouv@gmail.com</li>
                         </ul>
                   <div className="btn">
                 
-                <a href="" className="contact-btn">Download Resume</a>
+                <a href="doc.pdf" download="icon.pdf"className="contact-btn">Download Resume</a>
 
                 </div>
                 
