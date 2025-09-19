@@ -43,6 +43,15 @@
   position: relative;
   cursor: pointer;
 }
+.nav-wrapper {
+  position: fixed;        /* stick to top */
+  top: 0;
+  width: 100%;            /* full width */
+  z-index: 999;           /* above all other elements */
+  backdrop-filter: blur(50px);
+  transition: box-shadow 0.3s ease; /* smooth shadow on scroll */
+}
+
 .menu-item::before{
   content: "";
   width: 2rem;

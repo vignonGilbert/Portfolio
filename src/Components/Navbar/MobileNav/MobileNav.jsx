@@ -1,44 +1,81 @@
 import React from "react";
 import "./MobileNav.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-scroll";
 
+const MobileNav = ({ isOpen, toggleMenu }) => {
+  return (
+    <div className={`mobile-menu ${isOpen ? "active" : ""}`}>
+      <div className="mobile-menu-container" onClick={toggleMenu}>
+        <img className="logo" src="./assets/image/e-mail.png" alt="logo" />
 
-const MobileNav = ({isOpen, toggleMenu})=>{
-    return(
-        <>
-       <div
-         className={`mobile-menu ${isOpen ? "active" : ""}`}
-         onClick={toggleMenu}>
+        <ul>
+          <li>
+            <Link
+              to="home"
+              className="menu-item"
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="about"
+              className="menu-item"
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="projects"
+              className="menu-item"
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="services"
+              className="menu-item"
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="contact"
+              className="menu-item"
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Contact
+            </Link>
+          </li>
 
-            <div className="mobile-menu-container">
-                <img className="logo" src="./assets/image/e-mail.png" alt=""/>
-
-                <ul>
-                <li>
-                    <Link to="/" className="menu-item">Home</Link>  
-                    </li>
-                    <li>
-                    <Link to="/about" className="menu-item"> About</Link>  
-                    </li>
-                    <li>
-                     <Link to="/project" className="menu-item">PROJECT X </Link>
-                    </li>
-                    <li>
-                    <Link to="/service" className="menu-item">SERVICE</Link>
-                    </li>
-                    <li>
-                    <Link to="/contact" className="menu-item">CONTACT ME</Link>
-                    </li>
-
-                    <button className="contact-btn" onClick={()=>{}}> Hire Me </button>
-
-                </ul>
-            </div>
-
-       </div>
-    
-    
-    </>
-    );
+          <a
+            className="contact-btn"
+            href="./assets/image/doc.pdf"
+            download="MyResume.pdf"
+          >
+            Hire Me
+          </a>
+        </ul>
+      </div>
+    </div>
+  );
 };
+
 export default MobileNav;

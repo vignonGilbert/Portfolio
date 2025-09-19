@@ -1,57 +1,55 @@
 import React from "react";
-import "./ProjectComp.css"
+import "./ProjectComp.css";
 
-const ProjectComp =()=>{
-    return(
-        <>
-            <section className="header-image">
+const ProjectComp = () => {
+  return (
+    <section id="projects" className="project-section">
+      <div className="tete">
+        <h1>
+          My <span>Work</span>
+        </h1>
+        <p>Some of my recent projects showcasing my skills in web and mobile development.</p>
+      </div>
 
-                <div className="me"> 
-                    <h2> PROJECT</h2>
-                    <p>My futur project and new </p>
-                    
-                </div>
-
-
-          </section>
-          <div className="tete">
-          <h1> My <span>WORK</span></h1>
-          <p> 
-            sit amet consectetur adipisicing elit. Commodi, nisi.</p>
+      <div className="portfolio">
+        <div className="portfolio-card">
+          <a href="https://jovanek.com/" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/image/jo.png" alt="Ecommerce Website" />
+          </a>
+          <div className="portfolio-card-infos">
+            <a href="https://jovanek.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>Site vitrine for cleaning company</a>
           </div>
-        <section className="portfolio">
-         
-        
-            <div className="portfolio-card">
-    <a href="#"><img src="./assets/image/p1.jpg" alt=""/></a>
-    <div className="portfolio-card-infos">
-      <h3>ECOMMERCE WEBSITE</h3>
-    </div>
-  </div>
-  <div className="portfolio-card">
-    <a href="#"><img src="./assets/image/p3.jpg" alt=""/></a>
-    <div className="portfolio-card-infos">
-      <h3>SEE PROJECT</h3>
-    </div>
-  </div>
-  <div className="portfolio-card">
-    <a href="#"><img src="./assets/image/p2.jpg" alt=""/></a>
-    <div className="portfolio-card-infos">
-      <h3>REAL EASTE </h3>
-    </div>
-  </div>
-  <div className="portfolio-card">
-    <a href="#"><img src="./assets/image/p1.jpg" alt=""/></a>
-    <div className="portfolio-card-infos">
-      <h3>RESTAURATION FOOD ORDER</h3>
-     
+        </div>
 
-    </div>
-  </div>
-  
-  
-        </section>
-        </>
-    );
+        <div className="portfolio-card">
+          <a href="https://avenirsoccer.com/" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/image/av.png" alt="Project 2" />
+          </a>
+          <div className="portfolio-card-infos">
+            <a href="https://avenirsoccer.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>Avenir Soccer</a>
+          </div>
+        </div>
+
+        <div className="portfolio-card">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/image/kool.png" alt="Real Estate" />
+          </a>
+          <div className="portfolio-card-infos">
+            <a href="https://www.koolmarket.tg/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>Ecommerce Website</a>
+          </div>
+        </div>
+
+        <div className="portfolio-card">
+          <a href="https://github.com/vignonGilbert/Chef_api" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/image/Home.png" alt="Food Order App" />
+          </a>
+          <div className="portfolio-card-infos">
+            <a href="https://github.com/vignonGilbert/Chef_api" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>Food Order App</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
-export default ProjectComp
+
+export default ProjectComp;

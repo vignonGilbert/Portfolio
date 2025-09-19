@@ -11,12 +11,18 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^11.0.3",
+    "gsap": "^3.12.5",
     "history": "^5.3.0",
     "link-react": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.3",
+    "react-scroll": "^1.9.3",
     "react-slick": "^0.29.0",
+    "react-transition-group": "^4.4.5",
+    "react-typed": "^2.0.12",
     "slick-carousel": "^1.8.1",
     "vite-plugin-react-icons": "^0.2.0"
   },

@@ -27,7 +27,7 @@ const WorkExperience = ()=>{
     return(
         <section className="experience-container">
 
-            <h5>Work Experience</h5>
+            <h5 style={{ color: "#f9a826" }}>Work Experience</h5>
 
             <div className="experience-content">
             <Slider ref={sliderRef}{...settings}>

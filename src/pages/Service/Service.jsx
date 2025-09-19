@@ -6,7 +6,7 @@ import ServiceComp from "../../Components/Service/ServiceComp";
 const Service =()=>{
     return(
             <>
-             <Navbar/>
+             
         <div className="container-Project">
        
         <ServiceComp/>

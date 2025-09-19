@@ -8,7 +8,7 @@ import AboutCop from "../../Components/About/AboutCop";
 const About =()=>{
     return(
         <>
-      <Navbar/>
+
      <div className="container-about">
         <AboutCop/>
         

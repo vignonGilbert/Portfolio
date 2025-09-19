@@ -6,7 +6,7 @@ import ProjectComp from "../../Components/Project/ProjectComp";
 const Project =()=>{
     return(
         <>
-      <Navbar/>
+      
      <div className="container-Project">
        
         <ProjectComp/>

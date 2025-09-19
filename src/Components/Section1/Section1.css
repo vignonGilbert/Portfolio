@@ -7,6 +7,13 @@
 }
 .Section1-content{
     flex: 1;
+    font-size: 1rem;
+}
+.animation{
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
 }
 .Section1-content h2{
     font-size: 3.8rem;
@@ -74,6 +81,41 @@
 .btn a{
     text-decoration-line: none;
 }
+
+
+.slider {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider p {
+    position: absolute;
+    transform: translateY(100px);
+    opacity: 0;
+    visibility: hidden;
+    font-size: 70px;
+    text-align: center;
+    width: 100%;
+    color: #131313;
+}
+.slider h2 {
+    position: absolute;
+    transform: translateY(100px);
+    opacity: 0;
+    visibility: hidden;
+    font-size: 70px;
+    text-align: center;
+    width: 100%;
+    color: #131313;
+}
+
+
 
 @media (max-width: 1025px){
     .Section1-content h2{
@@ -165,5 +207,10 @@
     .tech-icon img{
         width:1.5rem;
     }
+    .animation{
+        margin-top: 1rem;
+        line-height:2rem;
+        font-size:1rem;
+      }
    
 }

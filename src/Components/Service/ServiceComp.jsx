@@ -1,60 +1,46 @@
 import React from "react";
-import "./ServiceComp.css"
-const ServiceComp =()=>{
-    return(
-        <>
-           <section className="header-image">
+import "./ServiceComp.css";
 
-<div className="me"> 
-    <h2>SERVICe</h2>
-    <p>Loreti enim, consequatur doloremque distinctio!</p>
-    
-</div>
+const ServiceComp = () => {
+  return (
+    <section id="services" className="service-section">
+      <div className="service-header">
+        <h1 style={{ color: "#f9a826" ,fontSize:"2.5rem", textAlign:"center",marginBottom:"1.5rem"}}>
+          My <span>Services</span>
+        </h1>
+        <p style={{ textAlign: "center" }}>
+          I specialize in Web and Mobile Development with a passion for creating
+          clean, efficient, and user-friendly digital solutions.
+        </p>
+      </div>
 
-
-</section>
-<section class="service">
-        <div className="tete">
-          <h1> My <span>service</span></h1>
-          <p>  I specialize in providing Web,Mobile Developpement. 
-            With a passion , 
-            I offer the following services to help your goals</p>
-         
-        </div>
-        <div className="contentcarte">
-          <div className="carte">
-            <img src="./assets/image/icone-de-codage.png" alt=""/>
-            <h2> Web Developpement</h2>
-            <p> Web development involves the design, creation,
-               and maintenance of websites and web applications.
-               and backend development, handling server-sids
-               
-            </p>
-          </div>
-          <div className="carte">
-            <img src="./assets/image/icone-de-codage.png" alt=""/>
-            <h2> Mobile Developpement</h2>
-            <p> Mobile development involves designing and
-               creating applications for mobile devices such as smartphones and tablets. 
-               
-            </p>
-          </div>
-          <div class="carte">
-            <img src="./assets/image/icone-de-codage.png" alt=""/>
-            <h2> UI & UX</h2>
-            <p> LUI (User Interface) and UX (User Experience) 
-              are crucial aspects of designing digital products,
-               emphasizing the interaction and overall satisfaction of users.
-              
-            </p>
-          </div>
-
-          
+      <div className="service-cards">
+        <div className="service-card">
+          <h2>Web Development</h2>
+          <p>
+            Designing, building, and maintaining responsive websites and web
+            applications. Includes frontend and backend development.
+          </p>
         </div>
 
-      </section>
+        <div className="service-card">
+          <h2>Mobile Development</h2>
+          <p>
+            Creating applications for mobile devices like smartphones and tablets
+            that are functional, smooth, and user-friendly.
+          </p>
+        </div>
 
-        </>
-    )
-}
-export default ServiceComp
+        <div className="service-card">
+          <h2>UI & UX Design</h2>
+          <p>
+            Crafting intuitive user interfaces and delightful experiences that
+            make digital products enjoyable and easy to use.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ServiceComp;

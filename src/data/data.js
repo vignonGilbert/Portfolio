@@ -5,10 +5,12 @@ export const SKILLS = [
         title:"Frontend",
         icon:"./assets/image/icone-de-codage.png",
         skills:[
-            {skill: "HTML5",percentage: "80%"},
+            {skill: "HTML5",percentage: "90%"},
             {skill: "CSS3",percentage: "80%"},
             {skill: "Javascript",percentage: "80%"},
-            {skill: "sass",percentage: "50%"},
+            {skill: "React js",percentage: "80%"},
+            { skill: "Framer Motion", percentage: "70%" },
+            { skill: "Flutter, Mobile", percentage: "75%" }
 
 
         ],
@@ -17,10 +19,11 @@ export const SKILLS = [
         title:"Backend",
         icon:"./assets/image/icone-de-codage.png",
         skills:[
-            {skill: "PHP",percentage: "80%"},
-            {skill: "NodeJs",percentage: "80%"},
+            {skill: "Express js",percentage: "80%"},
+            {skill: "JWT/OAuth",percentage: "80%"},
             {skill: "Java",percentage: "60%"},
-            {skill: "SQL",percentage: "80%"},
+            {skill: "MySQL",percentage: "70%"},
+            {skill: "MongoDB",percentage: "80%"},
 
 
         ],
@@ -29,10 +32,12 @@ export const SKILLS = [
         title:"Tools",
         icon:"./assets/image/icone-de-codage.png",
         skills:[
-            {skill: "Wordppress",percentage: "100%"},
+            {skill: "WordPress",percentage: "100%"},
             {skill: "Figma",percentage: "90%"},
-            {skill: "Wix",percentage: "50%"},
-            {skill: "Execel",percentage: "48%"},
+            {skill: "GitHub",percentage: "50%"},
+            {skill: "Shopify",percentage: "68%"},
+            {skill: "VS Code",percentage: "90%"},
+            {skill: "Illustrator/After Effects",percentage: "70%"},
 
 
         ],
@@ -45,6 +50,10 @@ export const SKILLS = [
             {skill: " Teamwork skills",percentage: "80%"},
             {skill: "Creativity skills",percentage: "100%"},
             {skill: "Problem-solving skills",percentage: "80%"},
+             { skill: "Communication", percentage: "85%" },
+            { skill: "Time Management", percentage: "80%" },
+            { skill: "Critical Thinking", percentage: "85%" },
+            { skill: "Leadership", percentage: "75%" }
 
 
         ],
@@ -53,51 +62,58 @@ export const SKILLS = [
 
 export const Experiences =[
     {
-        title: "Junior frontend developper",
-        date:"January 2022-2023",
-        responsibilities:[
-            "Write clean, maintainable, and efficient code using HTML, CSS, and JavaScript.",
-            "Implement responsive design principles to ensure the application works well on various devices and screen sizes.",
-            "Work with frontend frameworks and libraries such as React",
-            "Use version control systems like Git to manage and collaborate on code with other developers."
-
-
-        ],
-    },
-    {
-        title: "Junior Frontend developper",
-        date:"Mai 2020-2021",
-        responsibilities:[
-            "Collaborate with UI/UX designers to implement visually appealing and user-friendly interfaces",
-            "Translate design mockups and wireframes into functional and responsive user interfaces. ",
-            "Utilize state management tools like Redux or context API for complex applications",
-            "Communicate effectively with team members, including backend developers, designers, and project managers. "
-
-
-        ],
-    },
-    {
-        title: "WebMaster",
-        date:"Avril 2021-2022",
-        responsibilities:[
-            "Create and update web pages using HTML, CSS, and other web technologies.",
-            "Ensure the website's functionality, responsiveness, and overall user experience ",
-            "Keep the content up-to-date and relevant. ",
-            "Configure domain settings, including DNS records"
-
-
-        ],
-    },
-    {
-        title: "Seior backd developper",
-        date:"June 2022-2023",
-        responsibilities:[
-            "Develop server-side logic using programming languages like  Java, PHP, Node.js.",
-            "Design and maintain databases, including creating tables, writing queries, and optimizing database performance. ",
-            "Work with relational databases (e.g., MySQL, PostgreSQL) or NoSQL databases (e.g., MongoDB, Cassandra) depending on project requirements. ",
-            "Ensure proper API documentation and versioning. "
-
-
-        ],
-    },
+    title: "Numerical Project",
+    company: "Huskies Video Presentation (School Project)",
+    date: "2025",
+    responsibilities: [
+      "Worked on the Huskies video for their presentation as part of a school project.",
+      "Edited and produced video content to ensure clarity and engagement.",
+      "Collaborated with classmates to meet project deadlines and objectives.",
+      "Utilized digital tools to enhance the visual and audio quality of the presentation."
+    ]
+  },
+  {
+    title: "WordPress Developer",
+    company: "Jovanek (Vitrine Website)",
+    date: "2023 - 2024",
+    responsibilities: [
+      "Built a showcase website using WordPress for Jovanek.",
+      "Implemented an appointment booking system to manage client reservations.",
+      "Customized themes and plugins for a professional and user-friendly interface.",
+      "Ensured mobile responsiveness, site speed optimization, and SEO best practices."
+    ]
+  },
+  {
+    title: "Personal Projects Developer",
+    company: "Freelance / Personal Projects",
+    date: "2022 - Present",
+    responsibilities: [
+      "Built a restaurant ordering app with Flutter and Express.js backend.",
+      "Implemented real-time features like chat and order tracking for mobile applications.",
+      "Created a multi-vendor e-commerce platform with subscription and payment systems.",
+      "Designed full-stack applications, including database management and API integration."
+    ]
+  },
+   {
+    title: "WordPress Developer",
+    company: "Jovanek (Vitrine Website)",
+    date: "2023 - 2024",
+    responsibilities: [
+      "Built a showcase website using WordPress for Jovanek.",
+      "Implemented an appointment booking system to manage client reservations.",
+      "Customized themes and plugins for a professional and user-friendly interface.",
+      "Ensured mobile responsiveness, site speed optimization, and SEO best practices."
+    ]
+  },
+   {
+    title: "Software Developer",
+    company: "GPCI, Togo",
+    date: "2021 - 2022",
+    responsibilities: [
+      "Developed internal software solutions to automate business processes.",
+      "Created and maintained web applications using PHP, JavaScript, and SQL.",
+      "Collaborated with teams to analyze requirements and deliver efficient solutions.",
+      "Ensured software quality, security, and maintainability through testing and documentation."
+    ]
+  },
 ]

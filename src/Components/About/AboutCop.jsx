@@ -34,7 +34,7 @@ const AboutCop =()=>{
                         <ul>
                             <li>Name : Komlan .V.G.AGBEKPONOU</li>
                             <li>Age : 25 </li>
-                            <li>Address : Scarborough Toronto</li>
+                            <li>Address : Quebec, Rouyn Noranda</li>
                             <li>Phone Number :+1 437 799 8106</li>
                             <li>Email : agbekponouv@gmail.com</li>
                         </ul>

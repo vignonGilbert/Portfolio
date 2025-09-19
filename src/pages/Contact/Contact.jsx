@@ -7,7 +7,7 @@ import ContactComp from "../../Components/ContactComp/ContactComp";
 const Contact =()=>{
     return(
         <>
-           <Navbar/>
+         
           <div className="container-contact">
      
            <ContactComp/>

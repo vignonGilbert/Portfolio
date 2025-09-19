@@ -3,6 +3,8 @@ import './Skills.css'
 import {SKILLS} from "../../data/data";
 import SkillCard from "./SkillCard/SkillCard";
 import SkillInfoCard from "./SkillinfoCard/skillInfoCard";
+import {motion}from "framer-motion";
+
 
 const Skills =()=>{
 
@@ -13,11 +15,29 @@ const Skills =()=>{
   }
     return(
       <section className="skills-container">
-        <h5> Technical Proficiency </h5>
+        <motion.h5
+          initial={{y:100,opacity:0}}
+          whileInView={{y:0, opacity:1}}
+          transition={{
+             delay:1,
+             x:{type:"spring",stiffness:60},
+             opacity:{duration:1},
+             ease:"easeIn",
+             duration:1,}}
+        > Technical Proficiency </motion.h5>
 
         <div className="skills-content">
 
-        <div className="skills">
+        <motion.div
+          initial={{y:-100,opacity:0}}
+          whileInView={{y:0, opacity:1}}
+          transition={{
+             delay:0.4,
+             x:{type:"spring",stiffness:60},
+             opacity:{duration:1},
+             ease:"easeIn",
+             duration:1,}}
+         className="skills">
             {SKILLS.map((item)=>(
               <SkillCard 
               key={item.title}
@@ -33,16 +53,24 @@ const Skills =()=>{
 
             )}
             
-        </div>
+        </motion.div>
 
 
 
-        <div className="skills-info"> 
+        <motion.div
+         initial={{y:-100,opacity:0}}
+         whileInView={{y:0, opacity:1}}
+         transition={{
+            delay:0.4,
+            x:{type:"spring",stiffness:60},
+            opacity:{duration:1},
+            ease:"easeIn",
+            duration:1,}} className="skills-info"> 
         <SkillInfoCard
         heading={selectedSkill.title}
         skills={selectedSkill.skills}/>
         
-        </div>
+        </motion.div>
 
 
         </div>
