@@ -12,7 +12,7 @@ const Navbar = () => {
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <img className="logo" src="./assets/image/4913181.jpg" alt="logo" />
+          <img className="logo" src="./assets/image/4913181.png" alt="logo" />
 
           <ul>
             <li>

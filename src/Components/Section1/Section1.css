@@ -212,5 +212,18 @@
         line-height:2rem;
         font-size:1rem;
       }
+      /* Add this at the end of your CSS */
+@media (max-width: 768px) {
+  .Section1-container {
+    padding-top: 5rem; /* adjust this to match your navbar height */
+  }
+}
+
+@media (max-width: 600px) {
+  .Section1-container {
+    padding-top: 6rem; /* a bit more if your mobile navbar is taller */
+  }
+}
+
    
 }
