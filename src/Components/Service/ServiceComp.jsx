@@ -35,7 +35,7 @@ const ServiceComp = () => {
           <h2>UI & UX Design</h2>
           <p>
             Crafting intuitive user interfaces and delightful experiences that
-            make digital products enjoyable and easy to use.
+            make digital products enjoyable and easy to use with Figma and Illustrator.
           </p>
         </div>
       </div>

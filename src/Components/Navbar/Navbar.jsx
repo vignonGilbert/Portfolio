@@ -40,7 +40,7 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            <a className="contact-btn" href="./assets/image/doc.pdf" download="My resume">Hire Me</a>
+            <a className="contact-btn" href="/cv.pdf" download="My resume">Hire Me</a>
           </ul>
 
           <button className="menu-btn" onClick={toggleMenu}>

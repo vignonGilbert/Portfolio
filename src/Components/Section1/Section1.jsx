@@ -44,7 +44,7 @@ const Section1 =()=>{
                 
               
                 <div className="btn">
-                <a href="/doc.pdf" download className="contact-btn">
+                <a href="/cv.pdf" download className="contact-btn">
                 Hire Me
                 </a>              
                   <a href="#contact" className="contact-btn" smooth={true} duration={500} offset={-70}>Let's Talk</a>
@@ -88,8 +88,7 @@ const Section1 =()=>{
                     duration:1,}}>
                     <div className="tech-icon">
                         <img
-                       
-                        src="./assets/image/css-3_5968242.png"/>
+                       src="./assets/image/css-3_5968242.png"/>
                     </div>
 
                     <div className="tech-icon">
@@ -98,6 +97,7 @@ const Section1 =()=>{
                     <div className="tech-icon">
                         <img src="./assets/image/html-5_919827.png"/>
                     </div>
+                    
                   
                 </motion.div>
 

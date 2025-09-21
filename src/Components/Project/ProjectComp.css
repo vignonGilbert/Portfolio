@@ -81,6 +81,33 @@
   bottom: 0;
   opacity: 1;
 }
+/* Filter buttons */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0 3rem;
+  flex-wrap: wrap;
+}
+
+.filter-buttons button {
+  padding: 0.6rem 1.2rem;
+  border: 2px solid #f9a826;
+  background: transparent;
+  color: #f9a826;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.filter-buttons button:hover,
+.filter-buttons button.active {
+  background: #f9a826;
+  color: #0f1c2e;
+  transform: translateY(-2px);
+}
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {

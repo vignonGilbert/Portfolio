@@ -41,15 +41,16 @@
     gap: 2rem;
 }
 .tech-icon{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: start;
     border-radius: 0.65rem;
     border:1.5px solid #0D6E6E
 }
+
 
 .tech-icon img{
     width: 3rem;
