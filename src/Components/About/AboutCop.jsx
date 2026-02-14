@@ -1,79 +1,45 @@
 import React from "react";
-import './AboutCop.css'
+import './AboutCop.css';
+import { useTranslation } from "react-i18next";
 
-const AboutCop =()=>{
+const AboutCop = () => {
+  const { t } = useTranslation(); // clé pour les traductions
 
-    return(
-        <>
-        
-        
-        
-        
-       
-         <section className="header-image">
+  return (
+    <>
+      <section className="header-image">
+        <div className="me"> 
+          <h2>{t("aboutMe")}</h2>
+          <p>{t("jobTitle")}</p>
+        </div>
+      </section>
 
-            <div className="me"> 
-                <h2> About me</h2>
-                <p>Engeenier software Developper</p>
-                
-           </div>
-          
+      <section className="about-container">
+        <div className="about-content">
+          <h2>{t("hello")}</h2>
+          <p>{t("description")}</p>
+          <ul>
+            <li>{t("details.name")}</li>
+            <li>{t("details.age")}</li>
+            <li>{t("details.address")}</li>
+            <li>{t("details.phone")}</li>
+            <li>{t("details.email")}</li>
+          </ul>
+          <div className="btn">
+            <a href="doc.pdf" download className="contact-btn">
+              {t("downloadResume")}
+            </a>
+          </div>
+        </div>
 
-         </section>
-
-        <section className="about-container">
-            <div className="about-content">
-                
-                        <h2>Hello, I am Vignon Gilbert</h2>
-                        <p>I am a software developer designs, builds, and maintains software applications, encompassing both frontend and backend development. 
-                            I write clean code, collaborate with cross-functional teams, and ensure applications meet specified requirements.
-                             I like work across the entire software development lifecycle, from initial design to deployment 
-                            and ongoing maintenance.
-                             Staying updated on industry trends is crucial for enhancing skills and contributing to process improvement.
-                        </p>
-                        <ul>
-                            <li>Name : Komlan .V.G.AGBEKPONOU</li>
-                            <li>Age : 25 </li>
-                            <li>Address : Quebec, Rouyn Noranda</li>
-                            <li>Phone Number :+1 437 799 8106</li>
-                            <li>Email : agbekponouv@gmail.com</li>
-                        </ul>
-                  <div className="btn">
-                
-                <a href="doc.pdf" download="icon.pdf"className="contact-btn">Download Resume</a>
-
-                </div>
-                
-
-            </div>
-             <div className="about-img">
-                
-                   
-                    <div className="image1">
-                    <img src="./assets/image/homme.jpg" alt=""/>
-                     </div>
-             </div>
-                   
-             
-
-           
-        </section>
-     
-        
-</>
-          
-        
-    );
+        <div className="about-img">
+          <div className="image1">
+            <img src="./assets/image/homme.jpg" alt=""/>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 };
+
 export default AboutCop;
-
-
-
-
-
-
-
-   
-
-
-            

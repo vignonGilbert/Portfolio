@@ -19,11 +19,12 @@ export const SKILLS = [
         title:"Backend",
         icon:"./assets/image/icone-de-codage.png",
         skills:[
-            {skill: "Express js",percentage: "80%"},
+            {skill: "Express js",percentage: "90%"},
+            {skill: "laravel",percentage: "80%"},
             {skill: "JWT/OAuth",percentage: "80%"},
-            {skill: "Java",percentage: "60%"},
-            {skill: "MySQL",percentage: "70%"},
-            {skill: "MongoDB",percentage: "80%"},
+            {skill: "Java",percentage: "80%"},
+            {skill: "MySQL",percentage: "90%"},
+            {skill: "MongoDB",percentage: "90%"},
 
 
         ],
@@ -74,10 +75,10 @@ export const Experiences =[
   },
   {
     title: "WordPress Developer",
-    company: "Jovanek (Vitrine Website)",
+    company: "AVENIR SOCCER ",
     date: "2023 - 2024",
     responsibilities: [
-      "Built a showcase website using WordPress for Jovanek.",
+      "Built a showcase website using WordPress for Avenir soccer.",
       "Implemented an appointment booking system to manage client reservations.",
       "Customized themes and plugins for a professional and user-friendly interface.",
       "Ensured mobile responsiveness, site speed optimization, and SEO best practices."

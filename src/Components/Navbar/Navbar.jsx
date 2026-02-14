@@ -2,10 +2,17 @@ import React, { useState } from "react";
 import './Navbar.css';
 import MobileNav from "./MobileNav/MobileNav";
 import { Link } from "react-scroll";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const toggleMenu = () => setOpenMenu(!openMenu);
+
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <>
@@ -17,31 +24,33 @@ const Navbar = () => {
           <ul>
             <li>
               <Link to="home" smooth={true} duration={800} offset={-80} className="menu-item" onClick={toggleMenu}>
-                Home
+                {t("Home")}
               </Link>
             </li>
             <li>
               <Link to="about" smooth={true} duration={800} offset={-80} className="menu-item" onClick={toggleMenu}>
-                About
+                {t("About")}
               </Link>
             </li>
             <li>
               <Link to="projects" smooth={true} duration={800} offset={-80} className="menu-item" onClick={toggleMenu}>
-                Projects
+                {t("Projects")}
               </Link>
             </li>
             <li>
               <Link to="services" smooth={true} duration={800} offset={-80} className="menu-item" onClick={toggleMenu}>
-                Services
+                {t("Services")}
               </Link>
             </li>
             <li>
               <Link to="contact" smooth={true} duration={800} offset={-80} className="menu-item" onClick={toggleMenu}>
-                Contact
+                {t("Contact")}
               </Link>
             </li>
-            <a className="contact-btn" href="/cv.pdf" download="My resume">Hire Me</a>
+            <a className="contact-btn" href="/cv.pdf" download="My resume">{t("HireMe")}</a>
           </ul>
+
+         
 
           <button className="menu-btn" onClick={toggleMenu}>
             <span className="material-symbols-outlined" style={{ fontSize: "1.8rem" }}>

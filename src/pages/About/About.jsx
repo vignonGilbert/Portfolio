@@ -1,27 +1,19 @@
 import React from "react";
-import '../About/About.css'
+import '../About/About.css';
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import AboutCop from "../../Components/About/AboutCop";
 
-
-const About =()=>{
-    return(
-        <>
-
-     <div className="container-about">
-        <AboutCop/>
-        
-        
-     
-         </div>
-         <Footer/>
-        
-         
-      
-       
-     </>
-        
-    );
+const About = () => {
+  return (
+    <>
+      <Navbar />  {/* si Navbar a le switch langue */}
+      <div className="container-about">
+        <AboutCop />
+      </div>
+      <Footer />
+    </>
+  );
 };
-export default About
+
+export default About;

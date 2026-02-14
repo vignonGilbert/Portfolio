@@ -1,0 +1,67 @@
+{
+  "Home": "Accueil",
+  "About": "À propos",
+  "Projects": "Projets",
+  "Services": "Services",
+  "Contact": "Contact",
+  "hireMe": "Embauchez-moi",
+  
+
+  "letsTalk": "Contactez-moi",
+
+  "introLine1": "Je suis Komlan, DÉVELOPPEUR FULL STACK ",
+  "introLine2": "CRÉATION D APPLICATION WEB ET MOBILE MODERNES",
+  "introDescription": "Développeur full-stack avec une Licence en Génie Logiciel du Togo, un Diplôme en Génie Logiciel du Centennial College, et un Certificat en Création Numérique de l'UQAT, Canada. Bilingue français-anglais, passionné par la création d'expériences web et mobile modernes et réactives, et à la recherche d'opportunités pour progresser dans ma carrière tout en continuant à apprendre.",
+
+  "aboutMe": "À propos de moi",
+  "jobTitle": "Développeur logiciel",
+  "hello": "Bonjour, je suis Vignon Gilbert",
+  "description": "Je suis un développeur logiciel qui conçoit, construit et maintient des applications logicielles, couvrant à la fois le frontend et le backend. J'écris du code propre, je collabore avec des équipes multidisciplinaires et je m'assure que les applications répondent aux exigences spécifiées. J'aime travailler sur l'ensemble du cycle de vie du développement logiciel, de la conception initiale au déploiement et à la maintenance continue. Se tenir informé des tendances de l'industrie est crucial pour améliorer ses compétences et contribuer à l'amélioration des processus.",
+  "details": {
+    "name": "Nom: Komlan V.G. AGBEKPONOU",
+    "age": "Âge: 25",
+    "address": "Adresse: Québec, Rouyn Noranda",
+    "phone": "Numéro de téléphone: +1 437 799 8106",
+    "email": "Email: agbekponouv@gmail.com"
+  },
+  "downloadResume": "Télécharger le CV",
+  "skills": {
+    "Frontend": "Frontend",
+    "Backend": "Backend",
+    "Tools": "Outils",
+    "SoftSkills": "Compétences douces",
+    "HTML5": "HTML5",
+    "CSS3": "CSS3",
+    "Javascript": "Javascript",
+    "ReactJS": "React JS",
+    "FramerMotion": "Framer Motion",
+    "FlutterMobile": "Flutter, Mobile",
+    "ExpressJS": "Express JS",
+    "JWT_OAuth": "JWT/OAuth",
+    "Java": "Java",
+    "MySQL": "MySQL",
+    "MongoDB": "MongoDB",
+    "WordPress": "WordPress",
+    "Figma": "Figma",
+    "GitHub": "GitHub",
+    "Shopify": "Shopify",
+    "VSCode": "VS Code",
+    "IllustratorAE": "Illustrator/After Effects",
+    "Adaptability": "Adaptabilité",
+    "Teamwork": "Travail en équipe",
+    "Creativity": "Créativité",
+    "ProblemSolving": "Résolution de problèmes",
+    "Communication": "Communication",
+    "TimeManagement": "Gestion du temps",
+    "CriticalThinking": "Esprit critique",
+    "Leadership": "Leadership"
+  },
+  "experiences": {
+    "NumericalProject": "Projet Numérique",
+    "HuskiesVideo": "Présentation vidéo Huskies (Projet scolaire)",
+    "WordPressJovanek": "Développeur WordPress – Jovanek (Site vitrine)",
+    "PersonalProjects": "Développeur Projets Personnels – Freelance / Projets personnels",
+    "SoftwareGPCI": "Développeur logiciel – GPCI, Togo",
+    "Responsibilities": "Responsabilités"
+  }
+}

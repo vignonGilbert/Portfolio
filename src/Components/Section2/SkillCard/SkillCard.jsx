@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import './SkillCard.css'
 
 const SkillCard =(
@@ -21,4 +22,11 @@ const SkillCard =(
         </div>
     );
 };
+SkillCard.propTypes = {
+    title: PropTypes.string.isRequired,
+    iconUrl: PropTypes.string.isRequired,
+    isActive: PropTypes.bool.isRequired,
+    onClick: PropTypes.func.isRequired
+};
+
 export default SkillCard
